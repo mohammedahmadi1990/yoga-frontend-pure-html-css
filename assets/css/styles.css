@@ -6,11 +6,13 @@ body {
     color: #333;
 }
 
+/* Link styles */
 a {
     text-decoration: none;
     color: blue;
 }
 
+/* Slider styles */
 .slider {
     width: 100%;
     height: 600px;
@@ -19,6 +21,7 @@ a {
     z-index: 1;
 }
 
+/* Slide styles */
 .slide {
     width: 100%;
     height: 600px;
@@ -63,6 +66,7 @@ a {
     animation-delay: 10s;
 }
 
+/* Slide animation */
 @keyframes fadeAnimation {
     0%, 20%, 100% {
         opacity: 1;
@@ -72,6 +76,7 @@ a {
     }
 }
 
+/* Slide text */
 .slide p {
     position: absolute;
     bottom: 10%; 
@@ -93,6 +98,7 @@ nav {
     z-index: 10; 
 }
 
+/* Navigation list */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -102,14 +108,17 @@ nav ul {
     gap: 50px;
 }
 
+/* Navigation list items */
 nav ul li {
     margin: 0;
 }
 
+/* Navigation link styles */
 nav a {
     color: white;
 }
 
+/* Navigation link hover styles */
 nav a:hover {
     color: rgba(148, 234, 0, 0.797);
 }
@@ -117,7 +126,7 @@ nav a:hover {
 /* Box styles for Lesson and Album */
 .box {
     display: flex;
-    align-items: center; /* Vertically centers the items */
+    align-items: center;
     margin: 40px 10%;
     padding: 20px;
     background-color: #fff;
@@ -127,22 +136,26 @@ nav a:hover {
     transition: transform 0.3s ease-in-out;
 }
 
+/* Box hover animation */
 .box:hover {
     transform: scale(1.05);
 }
 
+/* Box image styles */
 .box img {
-    width: 200px; /* Set a fixed width for the image */
+    width: 200px;
     height: auto; 
     border-radius: 10px;
-    margin-right: 20px; /* Space between the image and the text */
+    margin-right: 20px; 
 }
 
+/* Box content heading styles */
 .box-content h2 {
     font-size: 36px;
-    margin: 0 0 10px; /* Removes the default margin and adds a little space below the title */
+    margin: 0 0 10px;
 }
 
+/* Box content paragraph styles */
 .box-content p {
     margin: 0;
     word-wrap: break-word;
@@ -160,17 +173,20 @@ nav a:hover {
     padding-bottom: 50px;
 }
 
+/* Info box content heading styles */
 .info-content h2 {
     color: #333;
     text-align: center;
     border-bottom: 2px solid #f0f0f0;
 }
 
+/* Info box content paragraph styles */
 .info-content p {
     color: #555;
     text-align: justify;
 }
 
+/* Video container styles */
 .video-container {
     text-align: center;
     display: flex;
@@ -178,6 +194,7 @@ nav a:hover {
     align-items: center;
 }
 
+/* Video iframe styles */
 .video-container iframe {
     top: 0;
     left: 0;
@@ -185,6 +202,7 @@ nav a:hover {
     width: 560px;
 }
 
+/* Reference link styles */
 .reference{
     float: right;
     font-size: 13px;
@@ -192,9 +210,10 @@ nav a:hover {
     padding: 20px;
 }
 
+/* Map iframe styles */
 header .map iframe {
-    width: 100vw; /* Make the map iframe 100% of the viewport width */
-    height: 500px; /* Set the height to 500px */
+    width: 100vw; 
+    height: 500px; 
     margin: 0;
     padding: 0;
     border: none;
@@ -203,6 +222,7 @@ header .map iframe {
     transform: translateX(-50%);
 }
 
+/* Contact details container */
 .contact-details {
     display: flex;
     flex-wrap: wrap;
@@ -212,6 +232,7 @@ header .map iframe {
     background-color: #f9f9f9;
 }
 
+/* Contact item styles */
 .contact-item {
     flex: 1;
     display: flex;
@@ -219,6 +240,7 @@ header .map iframe {
     gap: 15px;
 }
 
+/* Contact icon styles */
 .contact-icon {
     width: 24px;
     height: 24px;
@@ -236,41 +258,44 @@ footer {
     text-align: center;
 }
 
+/* Image grid styles */
 .image-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 30px;  
 }
 
+/* Image grid image styles */
 .image-grid img{
     height: 200px;
     width: 200px;
 }
 
-
-/* For the static image in the about page */
+/* Static image styles */
 .static-image {
-    height: 400px; /* Assuming the height of the slider. Adjust as necessary. */
+    height: 400px; 
     overflow: hidden;
 }
 
+/* Static image img styles */
 .static-image img {
     width: 100%;
 }
 
-/* Styling for inline images in the about content */
+/* Inline image styles */
 .inline-image {
     width: 40%;
     float: right;
     margin: 10px 0 10px 20px;
 }
 
+/* Left-aligned inline image styles */
 .inline-image.left {
     float: left;
     margin: 10px 20px 10px 0;
 }
 
-/* Clear floats */
+/* Clear floats after content */
 .info-content::after {
     content: "";
     display: table;
@@ -278,12 +303,14 @@ footer {
     clear: both;
 }
 
+/* Video grid styles */
 .video-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
+/* Video grid iframe styles */
 .video-grid iframe {
     width: 100%;
     height: auto;
