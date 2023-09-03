@@ -20,9 +20,9 @@ This project aims to provide users with a platform to learn body/mind self-impro
 
 ![Album page](./assets/images/screenshots/screenshot03.png)
 
-![Contact page](./assets/images/screenshots/screenshot03.png)
+![Contact page](./assets/images/screenshots/screenshot04.png)
 
-![About page](./assets/images/screenshots/screenshot03.png)
+![About page](./assets/images/screenshots/screenshot05.png)
 
 
 ## Testing
